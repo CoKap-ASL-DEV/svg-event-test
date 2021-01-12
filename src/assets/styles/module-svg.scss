@@ -1,0 +1,16 @@
+.modules-svg {
+  g[id="Group 7"],
+  g[id="Group 8"],
+  g[id="Group 9"],
+  g[id="Group 10"] {
+    cursor: pointer;
+
+    &:hover {
+      /* stroke: #ff0000;
+      stroke-width: 1px;
+      stroke-dasharray: 2, 2;
+      stroke-linejoin: round; */
+      outline: 3px solid #333333;
+    }
+  }
+}
